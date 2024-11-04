@@ -1,8 +1,46 @@
+/* Basic styling */
 body {
-  padding: 4em;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
-h1 {
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  color: blue;
+  padding: 1rem 0;
+  height: 457px;
+  width: 1172px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content */
+main {
+  margin: 20px;
+}
+
+article {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
